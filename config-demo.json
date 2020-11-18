@@ -1,0 +1,11 @@
+{
+  "calendars" : {
+    "google" : {
+      "url" : "https://calendar.google.com/calendar/ical/.../basic.ics"
+    },
+    "microsoft": {
+      "url": "https://outlook.office365.com/owa/calendar/.../reachcalendar.ics"
+    }
+  },
+  "token": "your_key"
+}
