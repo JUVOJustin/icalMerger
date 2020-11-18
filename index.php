@@ -1,8 +1,8 @@
 <?php
 header("Content-Type: text/plain");
-chmod(dirname(__FILE__) . "/calendars.json", 0640);
+chmod(dirname(__FILE__) . "/config.json", 0640);
 
-$string = file_get_contents(dirname(__FILE__) . "/calendars.json");
+$string = file_get_contents(dirname(__FILE__) . "/config.json");
 $config = json_decode($string, true);
 
 // Check Config File
